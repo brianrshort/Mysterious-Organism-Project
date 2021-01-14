@@ -59,3 +59,15 @@ function createArray() {
   //console.log(specArr);
   return specArr;
 }
+
+
+//Sample function calls to test the code
+
+// const Jimmy = pAequorFactory(1, mockUpStrand());
+// console.log(Jimmy.specimenNum, Jimmy.dna);
+// Jimmy.mutate();
+// console.log(Jimmy.dna);
+// const Becky = pAequorFactory(2, ["G","G","G","G","G","G","G","G","G","G","G","G","G","G","G"])
+// console.log(Jimmy.willLikelySurvive());
+// console.log(Becky.willLikelySurvive());
+//createArray();

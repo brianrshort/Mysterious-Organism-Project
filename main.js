@@ -48,3 +48,14 @@ const pAequorFactory = (num, arr) => {
     }  
   }
 }
+
+//A function that creates a 30 item array; specimenNum starts at 3 to avoid 1 and 2 which were used in examples in the 
+//function calls below
+function createArray() {
+  const specArr = [];
+  for (var i = 0; i < 31; i++) {
+    specArr.push(pAequorFactory(i + 2, mockUpStrand()));
+  }
+  //console.log(specArr);
+  return specArr;
+}
